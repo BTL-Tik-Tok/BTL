@@ -14,19 +14,31 @@
 <div id="main">
     <!-- header-->
     <div id="header">
-       <!--<i class="bi bi-tiktok"></i>-->
         <a class="navbar-brand" href="#">
-        <img id="img" src="/BTL/img/tiktok.jpg" alt="TikTok"> </a>
-        <div class="search-bt">
-            <div class="input-group">
-                <input type="text" class="search" placeholder="tìm kiếm tài khoản và video" aria-label="tìm kiếm tài khoản và video" aria-describedby="btnGroupAddon">
-                <div class="input-group-text" id="btnGroupAddon"><i class="bi bi-search"></i></div>
-            </div>
-        </div>
-    <div></div>
+        <img id="img" src="/BTL/img/tiktok.jpg" alt="TikTok"> </a>  
+        <!-- tìm kiếm -->
+        <span class="search-bt">
+            <span id="input-group">
+                <input class="search" type="text"  placeholder="tìm kiếm tài khoản và video" >
+                <!-- <div class="input-group-text" id="btnGroupAddon"><i class="bi bi-search"></i></div> -->
+                <button class="img">
+                    <img src="/BTL/img/search.png" alt="">
+                </button>
+            </span>
+        </span>
+        <!-- tải lên -->
+        <span class="lookup">
+            <a class="tai" href="">Tải lên</a>
+            <button>
+                <a class="insert" href="">đăng nhập</a>
+            </button>
+            <svg class="tim" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              </svg>
+        </span>
+
     </div>
     <div id="slider">
-
     </div>
 </div>
     
