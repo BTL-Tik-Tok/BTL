@@ -15,26 +15,32 @@
     right: 0;
     
 }
-#img{
+#img{ 
+    max-block-size: 56px;
     display: inline-block;
 }
 #header .search{
+    display: inline-block;
     width: 262px;
+    margin-left: 100px;
 }
-#hearch .input-group-text{
+#header .img{
+    width: 40px;
+}
+#header .lookup{
+    float: right;
+}
+#header .insert{
+    color: rgb(255,255,255);
+    background-color: rgb(254,44,85);
+    width: 150px;
+    text-decoration: none;
+}
+#header .tim{
     cursor: pointer;
 }
-#hearch.input-group{
-    display: inline;
-    width: 262px;
-}
-
-
 
 
 #slider{
     margin-top: 59px;
-}
-#img{
-    max-block-size: 56px;
 }
