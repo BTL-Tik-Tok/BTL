@@ -29,16 +29,29 @@
         <!-- tải lên -->
         <span class="lookup">
             <a class="tai" href="">Tải lên</a>
-            <button>
+            <button class="insert-bt">
                 <a class="insert" href="">đăng nhập</a>
             </button>
             <svg class="tim" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
                 <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
               </svg>
+
         </span>
 
     </div>
     <div id="slider">
+        <div class="top"><a class="home" href=""><i class="bi bi-house"></i><h2 class="font">Dành cho bạn</h2></a>
+            <a class="follow" href=""><i class="bi bi-people"></i><h2 class="font">Đang Follow</h2></a>
+            <a class="live" href=""><i class="bi bi-camera-video"></i><h2 class="font">Live</h2></a>
+        </div>
+        <div class="mid">
+            <span>
+                <h5>Đăng nhập để follow các tác giả, thích video và xem bình luận.</h5>
+            </span>
+            <button class="bt">
+                <a class="in" href="">Đăng nhập</a>
+            </button>
+        </div>   
     </div>
 </div>
     
