@@ -15,6 +15,9 @@
     right: 0;
     
 }
+#header .input-group{
+    align-items: center;
+}
 #img{ 
     max-block-size: 56px;
     display: inline-block;
@@ -22,13 +25,16 @@
 #header .search{
     display: inline-block;
     width: 262px;
-    margin-left: 100px;
+    margin-left: 400px;
 }
 #header .img{
     width: 40px;
 }
 #header .lookup{
     float: right;
+}
+#header .insert-bt{
+    width: 200;
 }
 #header .insert{
     color: rgb(255,255,255);
@@ -43,4 +49,22 @@
 
 #slider{
     margin-top: 59px;
+    width: 300px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+#slider .font{
+    font-size: 18px;
+}
+#slider .home{
+    display: inline;
+}
+#slider .in{
+    text-decoration: none;
+}
+#slider .bt{
+    height: 48px;
+    width: 300px;
 }
