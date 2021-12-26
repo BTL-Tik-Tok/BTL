@@ -1,0 +1,76 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 59px;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgba(34, 90, 98,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#header .input-group{
+    align-items: center;
+}
+#img{ 
+    max-block-size: 56px;
+    display: inline-block;
+}
+#header .search{
+    display: inline-block;
+    width: 262px;
+    margin-left: 400px;
+}
+#header .img{
+    width: 40px;
+}
+#header .lookup{
+    float: right;
+}
+#header .insert-bt{
+    border:0;
+    width: 200;
+}
+#header .insert{
+    color: rgb(255,255,255);
+    background-color: rgb(254,44,85);
+    width: 150px;
+    text-decoration: none;
+}
+#header .tim{
+    cursor: pointer;
+}
+#header .nav{
+    display: none;
+}
+
+
+#slider{
+    margin-top: 59px;
+    width: 300px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+#slider .font{
+    font-size: 18px;
+}
+#slider .home{
+    display: inline;
+}
+
+
+#slider .in{
+    text-decoration: none;
+}
+#slider .bt{
+    height: 48px;
+    width: 300px;
+}
