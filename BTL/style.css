@@ -49,6 +49,9 @@
 #header .nav{
     display: none;
 }
+#header #menu{
+    cursor: pointer;
+}
 
 
 #slider{
@@ -62,10 +65,17 @@
 #slider .font{
     font-size: 18px;
 }
-#slider .home{
-    display: inline;
+#slider .bt-home{
+    width: 290px;
+    border:0;
+    background-color: #fff;
 }
-
+#slider .bt-home:hover{
+    background-color: rgba(22,24,35,0.03);
+}
+#slider #img{
+    display: inline-block;
+}
 
 #slider .in{
     text-decoration: none;
