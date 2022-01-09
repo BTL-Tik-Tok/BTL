@@ -15,7 +15,7 @@
     <!-- header-->
     <div id="header">
         <a class="navbar-brand" href="#">
-            <img id="img" src="/BTL/img/tiktok.jpg" alt="TikTok" href="/BTL/login/index.html" >
+            <img id="img" src="/BTL/img/tiktok.jpg" alt="TikTok" href="/BTL/login/index.php" >
         </a>  
         <!-- tìm kiếm -->
         <span class="search-bt">
@@ -29,10 +29,7 @@
         </span>
         <!-- tải lên -->
         <span class="lookup">
-            <a class="tai" href="/BTL/tailen/tailen.html">Tải lên</a>
-            <button class="insert-bt">
-                <a class="insert" href="/BTL/login/index.html">đăng nhập</a>
-            </button>
+            <a class="tai" href="/BTL/upload/upload.php">Tải lên</a>
             <span class="bt-set">
                 <i id="menu" class="bi bi-three-dots-vertical"></i>
                 <ul class="nav">
@@ -60,14 +57,6 @@
             <a class="live" href=""><i class="bi bi-camera-video"></i><h2 class="font">Live</h2></a>
         </button>
         </div>
-        <div class="mid">
-            <span>
-                <h5>Đăng nhập để follow các tác giả, thích video và xem bình luận.</h5>
-            </span>
-            <button class="bt">
-                <a class="in" href="/BTL/login/index.html">Đăng nhập</a>
-            </button>
-        </div>
         <div class=end>
             <a class="end-fon">Giới thiệu</a>
             <a class="end-fon">bảng tin</a>
@@ -76,7 +65,10 @@
             <a class="end-fon">ByteDance</a>
             <a class="end-fon">Quảng cáo</a>
             <a class="end-fon">Trợ giúp</a>   
-        
+            <a class="end-fon">An toàn</a>
+            <a class="end-fon">Điều khoản</a>
+            <a class="end-fon">Quyền riêng tư</a>
+            <a class="end-fon">Hướng dẫn cộng đồng</a>   
         </div>
         <span class="tt">
             <a class="end-bt">© 2022 TikTok</a>
@@ -86,15 +78,7 @@
 
 <!-- content -->
     <div id=content>
-        <div>
-            <h4>nhóm nhảy</h4>
-            <!-- để chèn video lên -->
-            <video width="300px" height="auto" controls>
-                <source src="/BTL/video/video1.mp4" />
-            </video>
-        </div>
-
-    </div>
+        
 </div>
     
 </body>
