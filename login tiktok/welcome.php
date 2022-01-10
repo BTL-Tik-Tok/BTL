@@ -1,8 +1,6 @@
 <?php
-// Initialize the session
 session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
+
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
     exit;
@@ -21,12 +19,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </head>
 <body>
     <div id="main">
-    <!-- header-->
     <div id="header">
         <a class="navbar-brand" href="#">
             <img id="img" src="/lamlancuoi1/login/img/tiktok.jpg" alt="TikTok" href="" >
         </a>  
-        <!-- tìm kiếm -->
         <span class="search-bt">
             <span id="input-group">
                 <input class="search" type="text"  placeholder="tìm kiếm tài khoản và video" >
@@ -36,7 +32,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 </button>
             </span>
         </span>
-        <!-- tải lên -->
         <span class="lookup">
             <a class="tai" href="/lamlancuoi1/upload/upload.php">Tải lên</a>
             <a href="logout.php" class="btn btn-danger ml-3">Sign Out</a>
@@ -53,7 +48,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 
     </div>
-    <!-- slider -->
     <div id="slider">
         <div class="top">
             <button class="bt-home" >
@@ -83,7 +77,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         
     </div>
 
-<!-- content -->
     <div id=content>
         <div>
             
