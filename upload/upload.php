@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html> 
 <html lang="en">
 <head>
@@ -12,14 +10,11 @@
     <link rel="stylesheet" href="/BTL/upload/style.css">
 </head>
 <body>
-        <!-- start navbar -->
 <div id="main">
-    <!-- header-->
     <div id="header">
         <a class="navbar-brand" href="">
             <img id="img" src="/BTL/img/tiktok.jpg" alt="/BTL/index.html" href="/BTL/index.html" >
         </a>  
-        <!-- tìm kiếm -->
         <span class="search-bt">
             <span id="input-group">
                 <input class="search" type="text"  placeholder="tìm kiếm tài khoản và video" >
@@ -29,7 +24,6 @@
                 </button>
             </span>
         </span>
-        <!-- tải lên -->
         <span class="lookup">
             <a class="tai" href="#">Tải lên</a>
         </span>
@@ -57,9 +51,6 @@
     </div>
 
 
-
-
-    <!-- Copyright -->
     <div class="text-secondary p-3" style="background-color: black;">
         <div class="dropdown col-md-2  ">
           <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,8 +60,7 @@
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-               <li><a class="dropdown-item" href="#">Something else here</a></li>
-               
+               <li><a class="dropdown-item" href="#">Something else here</a></li>      
           </ul>
         </div>
         <p class="text-end cls1">
